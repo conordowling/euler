@@ -1,0 +1,81 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala, /Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/cdowling/euler/euler/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7e4946f2, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes:/Users/cdowling/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/cdowling/euler/euler/target/scala-2.10/test-classes:/Users/cdowling/euler/euler/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala:4: imported `Problem76' is permanently hidden by definition of object Problem76 in package euler[0m
+[0m[[33mwarn[0m] [0mimport euler.Problem76[0m
+[0m[[33mwarn[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala:6: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass CountingSummationsTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala:6: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass CountingSummationsTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                                   ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/CountingSummationsTest.scala:8: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Problem76 Solver" should "count summations" in {[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala:4: imported `Problem220' is permanently hidden by definition of object Problem220 in package euler[0m
+[0m[[33mwarn[0m] [0mimport euler.Problem220[0m
+[0m[[33mwarn[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala:6: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass HeighwayDragonTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala:6: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass HeighwayDragonTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/HeighwayDragonTest.scala:8: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Problem220 Solver" should "reproduce example" in {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:4: not found: object main[0m
+[0m[[31merror[0m] [0mimport main.scala.euler._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:6: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass SpecialSubsetTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:6: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass SpecialSubsetTest extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:8: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Problem103 Solver" should "find the optimal set for n=6" in {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:12: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Problem105 Solver" should "determine whether a set is a special subset" in {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/cdowling/euler/euler/src/test/scala/euler/SpecialSubsetTest.scala:16: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Problem106 Solver" should "find combinations for n=7" in {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
+[0m[[31merror[0m] [0m15 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(test:[31mcompileIncremental[0m) Compilation failed[0m
